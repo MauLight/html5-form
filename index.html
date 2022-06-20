@@ -65,74 +65,75 @@
               <option>...</option>
             </select>
           </div>
-          <div class="form-group col-md-3">
+
+          <div class="col-3">
             <label for="inputZip">Postal Code</label>
             <input type="text" class="form-control" id="inputZip" maxlength="7" pattern="[0-9]{7}">
           </div>
+
         </div>
+      </form>
 
-        <div class="form-row">
-          <div class="form-group col-md-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+
+
+
             <label for="inputCity">We Accept</label>
-            <span class="badge badge-secondary" style="display: flex;">
-              <div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
-                    checked>
-                  <label class="form-check-label" for="exampleRadios1">
-                    <i class="fa-brands fa-cc-mastercard"></i>
-                  </label>
-                </div>
-              </div>
+            <br>
+            <div class="badge badge-secondary  pl-4 ">
+              <button type="button" class="btn btn-secondary">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                  checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  <i class="fa-brands fa-cc-mastercard"></i>
+                </label>
+              </button>
+              <button type="button" class="btn btn-secondary">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                  checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  <i class="fa-brands fa-cc-diners-club"></i>
+                </label>
+              </button>
+              <button type="button" class="btn btn-secondary">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                  checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  <i class="fa-brands fa-cc-visa"></i>
+                </label>
+              </button>
+              <button type="button" class="btn btn-secondary">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                  checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  <i class="fa-brands fa-cc-amex"></i>
+                </label>
+              </button>
 
-              <div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
-                    checked>
-                  <label class="form-check-label" for="exampleRadios1">
-                    <i class="fa-brands fa-cc-mastercard"></i>
-                  </label>
-                </div>
-              </div>
-
-              <div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
-                    checked>
-                  <label class="form-check-label" for="exampleRadios1">
-                    <i class="fa-brands fa-cc-mastercard"></i>
-                  </label>
-                </div>
-              </div>
-              <div>
-                <div class="form-check mr-1">
-                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
-                    checked>
-                  <label class="form-check-label" for="exampleRadios1">
-                    <i class="fa-brands fa-cc-amex"></i>
-                  </label>
-                </div>
-              </div>
-            </span>
+            </div>
 
           </div>
 
-          <div class="form-group col-md-3">
 
-          </div>
-          <div class="form-group col-md-6">
+
+          <div class="col-6">
             <label for="InputTextArea">Message</label>
             <textarea class="form-control" id="message" rows="3"></textarea>
             <p style="color: lightgrey;">Add any notes here.</p>
           </div>
         </div>
-      </form>
-
-      <div class="row d-flex flex-row-reverse rounded-bottom border-top"
-        style="padding-right: 17px; padding-top: 12px; padding-bottom: 12px; background-color: rgb(238, 238, 238); margin: 0%;">
-        <button type="button" class="btn btn-primary" style="margin-left: 5px;">Send</button>
-        <button type="button" class="btn btn-secondary">Cancel</button>
       </div>
+    </div>
+
+
+
+
+    <div class="row d-flex flex-row-reverse rounded-bottom border-top"
+      style="padding-right: 17px; padding-top: 12px; padding-bottom: 12px; background-color: rgb(238, 238, 238); margin: 0%;">
+      <button type="button" class="btn btn-primary" style="margin-left: 5px;">Send</button>
+      <button type="button" class="btn btn-secondary">Cancel</button>
     </div>
   </div>
 
